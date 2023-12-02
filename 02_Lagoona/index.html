@@ -4,13 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Отели</title>
+  <link rel="stylesheet" href="./CSS/normalize.css">
+  <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
   <div class="container-site">
     <header class="header">
       <div class="container">
-        <div class="header-block-top">
-          <div class="header-box">
+        <div class="header-block-top flex">
+          <div class="header-box flex">
             <a href="" class="header-logo">
               <img src="./img/logo.jpg" alt="logo Lagoona" class="header-logo-image">
             </a>
@@ -24,9 +26,9 @@
             Личный кабинет
           </a>
         </div>
-        <div class="header-block-bot">
+        <div class="header-block-bot flex">
           <nav class="header-nav">
-            <ul class="header-list">
+            <ul class="list-reset header-list flex">
               <li class="header-item">
                 <a href="#about-us" class="header-link">
                   О нас
@@ -60,10 +62,10 @@
             </ul>
           </nav>
           <div class="header-box-btn">
-            <button class="btn header-btn">
+            <button class="btn-reset btn header-btn">
               Хочу тур
             </button>
-            <button class="btn header-btn">
+            <button class="btn-reset btn header-btn">
               Обратный звонок
             </button>
           </div>
@@ -72,15 +74,15 @@
     </header>
   
     <main class="main">
-      <section class="offer">
+      <section class="offer section-offset">
         <div class="container">
           <h2 class="section-title">
             Спецпредложения
           </h2>
           <div class="offer-cards">
-            <ul class="offer-list">
+            <ul class="list-reset offer-list flex">
               <li class="offer-item">
-                <article class="special-offer-xs">
+                <article class="special-offer special-offer-xs flex">
                   <h3 class="offer-title offer-title-xs">
                     Мальдивские острова
                   </h3>
@@ -91,7 +93,7 @@
                     Подробнее
                   </a>
                 </article>
-                <article class="special-offer-xs">
+                <article class="special-offer special-offer-xs flex">
                   <h3 class="offer-title offer-title-xs">
                     Горящий тур на&nbsp;остров Крит
                   </h3>
@@ -104,7 +106,7 @@
                 </article>
               </li>
               <li class="offer-item">
-                <article class="special-offer-xl">
+                <article class="special-offer special-offer-xl flex">
                   <h3 class="offer-title offer-title-xl">
                     Номера категории люкс
                   </h3>
@@ -120,7 +122,7 @@
           </div>
         </div>
       </section>
-      <section id="about-us" class="about-us">
+      <section id="about-us" class="about-us section-offset">
         <div class="container">
           <h2 class="section-title">
             О нас
@@ -130,12 +132,12 @@
           </p>
         </div>
       </section>
-      <section id="services" class="services">
+      <section id="services" class="services section-offset">
         <div class="container">
           <h2 class="section-title">
             Услуги
           </h2>
-          <ul class="services-list">
+          <ul class="list-reset services-list flex">
             <li class="services-item">
               <h3 class="services-title">
                 <a href="" class="services-link">
@@ -179,12 +181,12 @@
           </ul>
         </div>
       </section>
-      <section id="advantages" class="advantages">
+      <section id="advantages" class="advantages section-offset">
         <div class="container">
           <h2 class="section-title">
             Преимущества
           </h2>
-          <ul class="advantages-list">
+          <ul class="list-reset advantages-list flex">
             <li class="advantages-item">
               <p class="advantages-item-text">
                 Идейные соображения высшего порядка, а&nbsp;также постоянный количественный рост
@@ -228,17 +230,17 @@
           </ul>
         </div>
       </section>
-      <section id="accommodation" class="accommodation">
+      <section id="accommodation" class="accommodation section-offset">
         <div class="container">
           <h2 class="section-title">
             Размещение
           </h2>
-          <ul class="accommodation-list">
+          <ul class="list-reset accommodation-list flex">
             <li class="accommodation-item">
-              <article>
+              <article class="accommodation-item-card">
                 <img src="./img/accommodation-1.jpg" alt="" class="accommodation-image">
-                <div class="accommodation-item-content">
-                  <div class="accommodation-price">
+                <div class="accommodation-item-content flex">
+                  <div class="accommodation-price flex">
                     <span class="accommodation-pretext">
                       от
                     </span>
@@ -262,17 +264,19 @@
                   <div class="accommodation-city">
                     Барселона, Испания
                   </div>
-                  <button class="btn accommodation-btn">
-                    Номера
-                  </button>
+                  <div class="accommodation-btn-box">
+                    <button class="btn-reset btn accommodation-btn">
+                      Номера
+                    </button>
+                  </div>
                 </div>
               </article>
             </li>
             <li class="accommodation-item">
-              <article>
+              <article class="accommodation-item-card">
                 <img src="./img/accommodation-2.jpg" alt="" class="accommodation-image">
-                <div class="accommodation-item-content">
-                  <div class="accommodation-price">
+                <div class="accommodation-item-content flex">
+                  <div class="accommodation-price flex">
                     <span class="accommodation-pretext">
                       от
                     </span>
@@ -296,17 +300,19 @@
                   <div class="accommodation-city">
                     Барселона, Испания
                   </div>
-                  <button class="btn accommodation-btn">
-                    Номера
-                  </button>
+                  <div class="accommodation-btn-box">
+                    <button class="btn-reset btn accommodation-btn">
+                      Номера
+                    </button>
+                  </div>
                 </div>
               </article>
             </li>
             <li class="accommodation-item">
-              <article>
+              <article class="accommodation-item-card">
                 <img src="./img/accommodation-3.jpg" alt="" class="accommodation-image">
-                <div class="accommodation-item-content">
-                  <div class="accommodation-price">
+                <div class="accommodation-item-content flex">
+                  <div class="accommodation-price flex">
                     <span class="accommodation-pretext">
                       от
                     </span>
@@ -330,17 +336,19 @@
                   <div class="accommodation-city">
                     Барселона, Испания
                   </div>
-                  <button class="btn accommodation-btn">
-                    Номера
-                  </button>
+                  <div class="accommodation-btn-box">
+                    <button class="btn-reset btn accommodation-btn">
+                      Номера
+                    </button>
+                  </div>
                 </div>
               </article>
             </li>
             <li class="accommodation-item">
-              <article>
+              <article class="accommodation-item-card">
                 <img src="./img/accommodation-4.jpg" alt="" class="accommodation-image">
-                <div class="accommodation-item-content">
-                  <div class="accommodation-price">
+                <div class="accommodation-item-content flex">
+                  <div class="accommodation-price flex">
                     <span class="accommodation-pretext">
                       от
                     </span>
@@ -364,17 +372,19 @@
                   <div class="accommodation-city">
                     Барселона, Испания
                   </div>
-                  <button class="btn accommodation-btn">
-                    Номера
-                  </button>
+                  <div class="accommodation-btn-box">
+                    <button class="btn-reset btn accommodation-btn">
+                      Номера
+                    </button>
+                  </div>
                 </div>
               </article>
             </li>
             <li class="accommodation-item">
-              <article>
+              <article class="accommodation-item-card">
                 <img src="./img/accommodation-5.jpg" alt="" class="accommodation-image">
-                <div class="accommodation-item-content">
-                  <div class="accommodation-price">
+                <div class="accommodation-item-content flex">
+                  <div class="accommodation-price flex">
                     <span class="accommodation-pretext">
                       от
                     </span>
@@ -398,17 +408,19 @@
                   <div class="accommodation-city">
                     Барселона, Испания
                   </div>
-                  <button class="btn accommodation-btn">
-                    Номера
-                  </button>
+                  <div class="accommodation-btn-box">
+                    <button class="btn-reset btn accommodation-btn">
+                      Номера
+                    </button>
+                  </div>
                 </div>
               </article>
             </li>
             <li class="accommodation-item">
-              <article>
+              <article class="accommodation-item-card">
                 <img src="./img/accommodation-6.jpg" alt="" class="accommodation-image">
-                <div class="accommodation-item-content">
-                  <div class="accommodation-price">
+                <div class="accommodation-item-content flex">
+                  <div class="accommodation-price flex">
                     <span class="accommodation-pretext">
                       от
                     </span>
@@ -432,17 +444,19 @@
                   <div class="accommodation-city">
                     Барселона, Испания
                   </div>
-                  <button class="btn accommodation-btn">
-                    Номера
-                  </button>
+                  <div class="accommodation-btn-box">
+                    <button class="btn-reset btn accommodation-btn">
+                      Номера
+                    </button>
+                  </div>
                 </div>
               </article>
             </li>
             <li class="accommodation-item">
-              <article>
+              <article class="accommodation-item-card">
                 <img src="./img/accommodation-7.jpg" alt="" class="accommodation-image">
-                <div class="accommodation-item-content">
-                  <div class="accommodation-price">
+                <div class="accommodation-item-content flex">
+                  <div class="accommodation-price flex">
                     <span class="accommodation-pretext">
                       от
                     </span>
@@ -466,17 +480,19 @@
                   <div class="accommodation-city">
                     Барселона, Испания
                   </div>
-                  <button class="btn accommodation-btn">
-                    Номера
-                  </button>
+                  <div class="accommodation-btn-box">
+                    <button class="btn-reset btn accommodation-btn">
+                      Номера
+                    </button>
+                  </div>
                 </div>
               </article>
             </li>
             <li class="accommodation-item">
-              <article>
+              <article class="accommodation-item-card">
                 <img src="./img/accommodation-8.jpg" alt="" class="accommodation-image">
-                <div class="accommodation-item-content">
-                  <div class="accommodation-price">
+                <div class="accommodation-item-content flex">
+                  <div class="accommodation-price flex">
                     <span class="accommodation-pretext">
                       от
                     </span>
@@ -500,16 +516,18 @@
                   <div class="accommodation-city">
                     Барселона, Испания
                   </div>
-                  <button class="btn accommodation-btn">
-                    Номера
-                  </button>
+                  <div class="accommodation-btn-box">
+                    <button class="btn-reset btn accommodation-btn">
+                      Номера
+                    </button>
+                  </div>
                 </div>
               </article>
             </li>
-            <li class="accommodation-item">
-              <a href="" class="accommodation-link">
-                Посмотреть все варианты
-              </a>
+            <li class="accommodation-item flex">
+                <a href="" class="accommodation-link">
+                  Посмотреть все варианты
+                </a>
             </li>
           </ul>
         </div>
