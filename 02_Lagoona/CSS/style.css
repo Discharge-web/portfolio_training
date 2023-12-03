@@ -111,6 +111,7 @@ body {
   min-height: 540px;
   padding: 212px 45px 40px;
 }
+
 .special-offer-xs:not(:last-child) {
   margin-bottom: 24px;
 }
@@ -188,10 +189,6 @@ body {
   flex-wrap: wrap;
 }
 
-.accommodation-item {  
-  width: 374px;
-  outline: 1px solid red;
-}
 .accommodation-item:not(:nth-child(3n)) {
   margin-right: 24px;
 }
@@ -200,10 +197,22 @@ body {
   margin-bottom: 24px;
 }
 
+.accommodation-item-card {  
+  width: 374px;
+  min-height: 440px;
+  flex-direction: column;
+  outline: 1px solid red;
+}
+
+.accommodation-image {
+  flex-shrink: 0;
+}
+
 .accommodation-item-content {
   padding: 45px;
   padding-top: 32px;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .accommodation-price {
@@ -229,6 +238,11 @@ body {
 
 .accommodation-city {
   margin-bottom: 20px;
+}
+
+.accommodation-btn {
+  margin-top: auto;
+  align-self: flex-start;
 }
 
 .accommodation-link {
