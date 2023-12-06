@@ -1,0 +1,235 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "font", sans-serif;
+}
+
+/* globl */
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.container-site {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.section-title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+
+.section-offset {
+  margin-bottom: 70px;
+}
+
+/* header */
+.header {
+  margin-bottom: 70px;
+}
+
+.header-block-top {
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: space-between;
+  outline: 1px solid red;
+}
+
+.header-box {
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: 40px;
+  font-size: 0;
+}
+
+.header-block-bot {
+  padding: 14px 45px;
+  align-items: center;
+  justify-content: space-between;
+  outline: 1px solid red;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+/* offer */
+.offer-list {
+  justify-content: space-between;
+}
+
+.offer-item-flex {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.special-offer {
+  width: 573px;
+  flex-direction: column;
+  outline: 1px solid red;
+}
+
+.special-offer-xs {
+  min-height: 258px;
+  padding: 40px 108px 40px 45px;
+}
+
+.special-offer-xs:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.special-offer-xl {
+  height: 100%;
+  padding: 212px 229px 40px 45px;
+}
+
+.offer-title {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.offer-link {
+  margin-top: auto;
+  padding-top: 47px;
+}
+
+/* about us */
+.about-us-text {
+  margin: 0;
+}
+
+/* services */
+.services-list {
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.services-item {
+  width: 573px;
+  padding: 191px 126px 35px 45px;
+  outline: 1px solid red;
+}
+
+.services-title {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.services-descr {
+  margin: 0;
+}
+
+/* advantages */
+.advantages-list {
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.advantages-item {
+  width: 276px;
+  min-height: 276px;
+  padding: 106px 42px 32px 45px;
+  outline: 1px solid red;
+}
+
+.advantages-item-text {
+  margin: 0;
+}
+
+/* accommodation */
+.accommodation-list {
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.accommodation-item-card {  
+  width: 374px;
+  height: 100%;
+  flex-direction: column;
+  outline: 1px solid red;
+}
+
+.accommodation-image {
+  flex-shrink: 0;
+}
+
+.accommodation-item-last {
+  width: 374px;
+  padding-bottom: 27px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  outline: 1px solid red;
+}
+
+.accommodation-item-content {
+  padding: 45px;
+  padding-top: 32px;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.accommodation-price {
+  margin-bottom: 16px;
+  justify-content: space-between;
+}
+
+.accommodation-pretext {
+  margin-right: 2px;
+}
+
+.accommodation-numbers {
+  margin-right: 7px;
+}
+
+.accommodation-hotel {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.accommodation-city {
+  margin-bottom: 20px;
+}
+
+.accommodation-btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
