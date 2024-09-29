@@ -269,8 +269,7 @@ body {
   color: #F0BF5F;
   background-image: url("../img/rectangle-icon.svg");
   background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: 11px 16px;
+  background-position: right bottom -1px;
 }
 
 /* about us */
