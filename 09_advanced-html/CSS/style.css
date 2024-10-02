@@ -70,18 +70,18 @@ body {
 }
 
 .btn-reset {
-  background-color: transparent;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .btn {
   padding: 13px 20px;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
   font-weight: 400;
   font-size: 16px;
   line-height: normal;
   color: #CC9933;
-  border: 1px solid #CC9933;
-  border-radius: 10px;
 }
 
 .flex {
@@ -120,9 +120,9 @@ body {
 }
 
 .header-block-top {
-  margin-bottom: 30px;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .header-box {
@@ -159,10 +159,11 @@ body {
 }
 
 .header-block-bot {
-  padding: 14px 45px;
   align-items: center;
   justify-content: space-between;
+  padding: 14px 45px;
   border-radius: 15px;
+  font-size: 0;
   background-color: #fff;
 }
 
@@ -197,12 +198,12 @@ body {
 }
 
 .special-offer {
-  width: 573px;
   flex-direction: column;
+  width: 573px;
+  border-radius: 15px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border-radius: 15px;
 }
 
 .special-offer-xs {
@@ -259,10 +260,10 @@ body {
 }
 
 .offer-link {
+  align-self: flex-start;
   margin-top: auto;
   padding-top: 47px;
   padding-right: 15px;
-  align-self: flex-start;
   font-weight: 400;
   font-size: 16px;
   line-height: normal;
@@ -291,11 +292,11 @@ body {
 .services-item {
   width: 573px;
   padding: 191px 126px 35px 45px;
+  border-radius: 15px;
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
-  border-radius: 15px;
 }
 
 .services-img1 {
@@ -349,11 +350,11 @@ body {
   width: 276px;
   min-height: 276px;
   padding: 116px 42px 32px 45px;
+  border-radius: 15px;
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: 45px 40px;
   background-size: 66px 68px;
-  border-radius: 15px;
 }
 
 .advantages-item-text {
@@ -403,12 +404,12 @@ body {
 }
 
 .accommodation-item-card {
+  flex-direction: column;
   width: 374px;
   height: 100%;
-  flex-direction: column;
+  border-radius: 15px;
   overflow: hidden;
   background-color: #fff;
-  border-radius: 15px;
 }
 
 .accommodation-image {
@@ -416,17 +417,17 @@ body {
 }
 
 .accommodation-item-last {
-  width: 374px;
-  padding-bottom: 27px;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  width: 374px;
+  padding-bottom: 27px;
+  border-radius: 15px;
   background-image: url("../img/accommodation-9.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: #fff;
-  border-radius: 15px;
 }
 
 .accommodation-link {
@@ -442,15 +443,15 @@ body {
 }
 
 .accommodation-item-content {
-  padding: 45px;
-  padding-top: 32px;
   flex-direction: column;
   flex-grow: 1;
+  padding: 45px;
+  padding-top: 32px;
 }
 
 .accommodation-price {
-  margin-bottom: 16px;
   justify-content: space-between;
+  margin-bottom: 16px;
 }
 
 .accommodation-pretext {
@@ -476,6 +477,16 @@ body {
   color: #000;
 }
 
+.accommodation-rating {
+  display: flex;
+  align-items: center;
+}
+
+.accommodation-rating-item {
+  margin-right: 6px;
+  width: 14px;
+}
+
 .accommodation-hotel {
   margin: 0;
   margin-bottom: 16px;
@@ -494,8 +505,8 @@ body {
 }
 
 .accommodation-btn {
-  margin-top: auto;
   align-self: flex-start;
+  margin-top: auto;
 }
 
 /* form tour */
@@ -611,6 +622,7 @@ body {
 
 .contacts-address-title {
   flex-shrink: 0;
+  padding-right: 20px;
   width: 145px;
   font-weight: 700;
   font-size: 20px;
