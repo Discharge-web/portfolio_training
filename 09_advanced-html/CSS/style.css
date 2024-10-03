@@ -622,8 +622,9 @@ body {
 
 .contacts-address-title {
   flex-shrink: 0;
-  padding-right: 20px;
-  width: 145px;
+  margin: 0;
+  margin-right: 20px;
+  width: 125px;
   font-weight: 700;
   font-size: 20px;
 }
@@ -638,6 +639,7 @@ body {
 
 .contacts-link {
   display: block;
+  width: fit-content;
   color: #c93;
 }
 
@@ -663,11 +665,12 @@ body {
   font-size: 16px;
   line-height: 190%;
   color: #fff;
-  background: #333 url("../img/footer-bg.png") bottom right 176px no-repeat;
+  background: #333 url("../img/footer-bg.svg") bottom right 176px no-repeat;
 }
 
 .footer-link {
   display: block;
+  width: fit-content;
   line-height: 150%;
   color: #c93;
 }
