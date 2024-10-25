@@ -130,6 +130,16 @@ img {
   background-color: transparent;
 }
 
+.btn {
+  padding: 20px 38px;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  background-color: #f90;
+}
+
 /* header */
 .header--style {
   border-radius: 0 0 32px 32px;
@@ -205,14 +215,9 @@ img {
   color: #fff;
 }
 
-.btn {
+.btn--big {
   padding: 25px 39px;
-  border-radius: 16px;
-  font-weight: 700;
   font-size: 23px;
-  text-align: center;
-  color: #fff;
-  background-color: #f90;
 }
 
 /* about */
@@ -269,13 +274,7 @@ img {
 }
 
 .btn--widget {
-  padding: 20px 39px;
   border: 3px solid #f90;
-  border-radius: 16px;
-  font-weight: 700;
-  font-size: 16px;
-  text-align: center;
-  color: #fff;
   background-color: transparent;
 }
 
@@ -317,3 +316,50 @@ img {
 .about__item--img-gear::before {
   background-image: url("../img/about-list-2.svg");
 }
+
+/* stages */
+.stages__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.stages__content::after {
+  content: "";
+  display: block;
+  max-width: 870px;
+  min-width: 290px;
+  min-height: 284px;
+  border-radius: 32px;
+  background: no-repeat center;
+  background-size: cover;
+}
+
+.stages__content--bg::after {
+  background-image: url("../img/stages-img.jpg");
+}
+
+.stages__wrapper, .stages__content::after {
+  --offset: 1;
+  width: calc((100% - (var(--gap) * var(--offset))) / (var(--offset) + 1));
+}
+
+.stages__descr {
+  margin-bottom: 18px;
+  max-width: 740px;
+  min-width: 437px;
+}
+
+.stages__wrap {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.btn--dark {
+  border: 1px solid #000;
+  color: #000;
+  background-color: transparent;
+}
+
+/* questions */
