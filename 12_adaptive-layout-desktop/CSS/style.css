@@ -363,3 +363,16 @@ img {
 }
 
 /* questions */
+.questions__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.questions__item {
+  --offset: 2;
+  padding: 60px 65px;
+  width: calc((100% - (var(--gap) * var(--offset))) / (var(--offset) + 1));
+  border: 1px solid #cacaca;
+  border-radius: 32px;
+}
