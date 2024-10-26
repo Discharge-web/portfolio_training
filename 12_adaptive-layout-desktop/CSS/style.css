@@ -98,12 +98,12 @@ img {
 }
 
 .section-offset {
-  margin-bottom: 100px;
+  margin-bottom: 102px;
 }
 
 .section-title {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 37px;
   font-weight: 400;
   font-size: 48px;
   color: #000;
@@ -300,6 +300,11 @@ img {
 }
 
 /* about */
+
+.about__title {
+  margin-bottom: 21px;
+}
+
 .about__descr {
   max-width: 1235px;
   margin-bottom: 50px;
@@ -353,6 +358,7 @@ img {
 }
 
 .btn--widget {
+  padding: 18px 36px;
   border: 3px solid var(--orange-primary);
   background-color: transparent;
 }
@@ -388,8 +394,8 @@ img {
 .about__item {
   display: flex;
   align-items: center;
-  padding: 65px 60px;
-  min-height: 296px;
+  padding: 64px 60px;
+  min-height: 295px;
   border: 1px solid var(--grey-light);
   border-radius: 32px;
 }
@@ -398,7 +404,7 @@ img {
   content: "";
   display: block;
   flex-shrink: 0;
-  margin-right: 50px;
+  margin-right: 48px;
   width: 190px;
   height: 165px;
   background: no-repeat center;
@@ -456,6 +462,7 @@ img {
 }
 
 .btn--dark {
+  padding: 20px 36px;
   border: 1px solid #000;
   color: #000;
   background-color: transparent;
@@ -502,6 +509,10 @@ img {
 }
 
 /* questions */
+.questions__title {
+  margin-bottom: 34px;
+}
+
 .questions__list {
   display: flex;
   flex-wrap: wrap;
@@ -510,7 +521,8 @@ img {
 
 .questions__item {
   --offsets: 2;
-  padding: 60px 65px;
+  padding: 68px 60px;
+  padding-bottom: 63px;
   width: calc((100% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
   border: 1px solid var(--grey-light);
   border-radius: 32px;
@@ -524,7 +536,7 @@ img {
 .footer__container {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
+  padding-top: 49px;
   padding-bottom: 50px;
   gap: var(--gap);
 }
@@ -547,6 +559,11 @@ img {
   justify-content: flex-end;
   align-items: center;
   min-width: 363px;
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 16px;
 }
 
 .links-list {
@@ -612,6 +629,8 @@ img {
 }
 
 .footer__title {
+  margin-bottom: 25px;
+  padding-top: 3px;
   color: var(--grey-light);
 }
 
@@ -624,7 +643,7 @@ img {
   width: 570px;
   height: 60px;
   margin-bottom: 25px;
-  padding: 24px 14px;
+  padding: 15px 26px;
   border: none;
   border-radius: 16px;
   font-weight: 400;
@@ -638,7 +657,7 @@ img {
 
 .form__field--textarea {
   height: 150px;
-  margin-bottom: 32px;
+  margin-bottom: 34px;
   resize: none;
 }
 
@@ -662,7 +681,7 @@ img {
 }
 
 .btn--long {
-  padding:19px 52px ;
+  padding:19px 53px ;
 }
 
 .form__btn {
