@@ -246,9 +246,9 @@ img {
 }
 
 .about__widget {
-  --offset: 1;
+  --offsets: 1;
   max-width: 924px;
-  width: calc((100% - (var(--gap) * var(--offset))) / (var(--offset) + 1));
+  width: calc((100% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
 }
 
 .widget__wrapper {
@@ -339,8 +339,8 @@ img {
 }
 
 .stages__wrapper, .stages__content::after {
-  --offset: 1;
-  width: calc((100% - (var(--gap) * var(--offset))) / (var(--offset) + 1));
+  --offsets: 1;
+  width: calc((100% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
 }
 
 .stages__descr {
@@ -369,9 +369,9 @@ img {
 }
 
 .questions__item {
-  --offset: 2;
+  --offsets: 2;
   padding: 60px 65px;
-  width: calc((100% - (var(--gap) * var(--offset))) / (var(--offset) + 1));
+  width: calc((100% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
   border: 1px solid #cacaca;
   border-radius: 32px;
 }
@@ -390,8 +390,8 @@ img {
 }
 
 .footer__start, .footer__center, .footer__end {
-  --offset: 2;
-  width: calc((100% - (var(--gap) * var(--offset))) / (var(--offset) + 1));
+  --offsets: 2;
+  width: calc((100% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
 }
 
 .footer__start {

@@ -30,7 +30,7 @@
           </li>
         </ul>
       </nav>
-      <button href="#" class="btn-reset search"></button>
+      <button class="btn-reset search"></button>
     </div>
   </header>
   <main class="main">
@@ -75,7 +75,7 @@
                   <h3 class="section-caption about__caption">
                     Консультация с&nbsp;широким активом
                   </h3>
-                  <p class="section-descr about_descr">
+                  <p class="section-descr">
                     А&nbsp;также свежий взгляд на&nbsp;привычные вещи&nbsp;&mdash; безусловно открывает новые горизонты для как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений
                   </p>
                 </div>
@@ -85,7 +85,7 @@
                   <h3 class="section-caption about__caption">
                     В&nbsp;своём стремлении повысить
                   </h3>
-                  <p class="section-descr about_descr">
+                  <p class="section-descr">
                     Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса профессионального сообщества
                   </p>
                 </div>
@@ -205,16 +205,16 @@
         <h2 class="section-title footer__title">
           Оставить заявку
         </h2>
-        <form class="form" action="" method="POST">
-          <input class="form__field" type="text" placeholder="Фамилия, имя и&nbsp;отчество*">
-          <input class="form__field" type="email" placeholder="Email*">
-          <textarea class="form__field form__field--textarea" placeholder="Сообщение" name="" id=""></textarea>
+        <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+          <input class="form__field" type="text" name="name" placeholder="Фамилия, имя и&nbsp;отчество*" required>
+          <input class="form__field" type="email" name="email" placeholder="Email*" required>
+          <textarea class="form__field form__field--textarea" placeholder="Сообщение" name="comment"></textarea>
           <div class="form__wrapper">
             <button class="btn btn-reset btn--long">
               Отправить данные
             </button>
             <label class="custom-checkbox form__checkbox ">
-              <input class="custom-checkbox__input" type="checkbox">
+              <input class="custom-checkbox__input" type="checkbox" required>
               <span class="custom-checkbox__text">Согласен на&nbsp;обработку данных</span>
             </label>
           </div>
