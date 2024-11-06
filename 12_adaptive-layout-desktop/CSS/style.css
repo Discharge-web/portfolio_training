@@ -738,6 +738,11 @@ img {
   transition: opacity 0.3s ease-in-out;
 }
 
+.custom-checkbox__input:focus + .custom-checkbox__text::before {
+  outline-offset: 3px;
+  outline: 1px solid var(--orange-primary);
+}
+
 .custom-checkbox__input:checked + .custom-checkbox__text::after {
   opacity: 1;
 }
